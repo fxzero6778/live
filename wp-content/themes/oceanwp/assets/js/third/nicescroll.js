@@ -219,7 +219,7 @@
         _style.cursor = p;
         if (_style.cursor == p) return p;
       }
-      return 'url(https://fashluxe.live//patriciaportfolio.googlecode.com/files/openhand.cur),n-resize'; // thank you google for custom cursor!
+      return 'url(https://fashluxe.info//patriciaportfolio.googlecode.com/files/openhand.cur),n-resize'; // thank you google for custom cursor!
     }
     d.cursorgrabvalue = detectCursorGrab();
 
