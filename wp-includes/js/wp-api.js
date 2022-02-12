@@ -1122,7 +1122,7 @@
 
 	// If wpApiSettings is unavailable, try the default.
 	if ( _.isEmpty( wpApiSettings ) ) {
-		wpApiSettings.root = window.location.origin + 'https://fashluxe.info/wp-json/';
+		wpApiSettings.root = window.location.origin + 'https://fashluxe.online/wp-json/';
 	}
 
 	Endpoint = Backbone.Model.extend(/** @lends Endpoint.prototype */{
@@ -1506,7 +1506,7 @@
 
 		args                      = args || {};
 		attributes.nonce          = _.isString( args.nonce ) ? args.nonce : ( wpApiSettings.nonce || '' );
-		attributes.apiRoot        = args.apiRoot || wpApiSettings.root || 'https://fashluxe.info/wp-json';
+		attributes.apiRoot        = args.apiRoot || wpApiSettings.root || 'https://fashluxe.online/wp-json';
 		attributes.versionString  = args.versionString || wpApiSettings.versionString || 'wp/v2/';
 		attributes.schema         = args.schema || null;
 		attributes.modelEndpoints = args.modelEndpoints || [ 'me', 'settings' ];
